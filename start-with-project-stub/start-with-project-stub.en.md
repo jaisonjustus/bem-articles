@@ -43,6 +43,8 @@ For development you can run
 Upon completion, you'll see the following message:
 
    info: Server is listening on port 8080. Point your browser to http://localhost:8080/
+   
+   Sometime your development machine have multiple servers like apache etc to avoid collision you can change the server port by ```$ bem server -p <port-no>```
 
 This means `bem server` is up and running; from this point on, your project is
 automatically rebuilt each time you change something.
